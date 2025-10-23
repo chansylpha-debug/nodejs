@@ -1,14 +1,14 @@
 {
-  "name": "nodejs-app",
+  "name": "sylphastore-bot",
   "version": "1.0.0",
-  "description": "A minimal Node.js web application.",
-  "main": "app.js",
-  "author": "alphasec",
-  "license": "MIT",
-  "dependencies": {
-    "express": "^4.19.2"
-  },
+  "main": "aplikasi.js",
+  "type": "module",
   "scripts": {
-    "start": "node app.js"
+    "start": "node aplikasi.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "dotenv": "^16.0.3",
+    "node-fetch": "^3.3.2"
   }
 }
